@@ -1,0 +1,66 @@
+/* src/app/contact/contact.component.css */
+
+.contact-container {
+    max-width: 500px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Inner padding */
+    background-color: #ecf0f1; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .contact-title {
+    text-align: center; /* Center the title */
+    color: #2c3e50; /* Dark color for the title */
+    font-size: 2em; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  form {
+    display: flex; /* Flexbox for form layout */
+    flex-direction: column; /* Stack form elements vertically */
+  }
+  
+  form div {
+    margin-bottom: 15px; /* Space between form fields */
+  }
+  
+  input, textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 12px; /* Increased padding for comfort */
+    border: 1px solid #bdc3c7; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Base font size */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #27ae60; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 100px; /* Minimum height for textarea */
+  }
+  
+  button {
+    padding: 12px; /* Padding for button */
+    background-color: #27ae60; /* Green background for button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Base font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+  }
+  
+  button:hover {
+    background-color: #219150; /* Darker green on hover */
+  }
+  
+  .contact-footer {
+    text-align: center; /* Center footer text */
+    margin-top: 20px; /* Space above footer */
+    color: #7f8c8d; /* Gray color for footer text */
+  }
